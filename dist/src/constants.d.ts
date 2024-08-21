@@ -14,5 +14,5 @@ export declare const DELETE_FEATURE: boolean;
 export declare const SET_ALIAS: boolean;
 export declare const MIGRATIONS_DIR: string;
 export declare const CONTENTFUL_ALIAS = "master";
-export declare const DELAY = 3000;
-export declare const MAX_NUMBER_OF_TRIES = 10;
+export declare const DELAY = 10000;
+export declare const MAX_NUMBER_OF_TRIES = 25;

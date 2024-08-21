@@ -17,6 +17,7 @@ import {
   VERSION_CONTENT_TYPE,
   VERSION_FIELD,
   FEATURE_PATTERN,
+  DELAY
 } from "./constants";
 import {
   delay,
@@ -98,7 +99,7 @@ export const runAction = async (space): Promise<void> => {
       break;
     } catch (error) {
       Logger.warn("Retrying retrieval of locales");
-      await delay();
+      await delay(DELAY + (count * 5000));
       count++;
     }
   }
