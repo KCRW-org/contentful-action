@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { readdir } from "fs";
 export declare const readdirAsync: typeof readdir.__promisify__;
 /**

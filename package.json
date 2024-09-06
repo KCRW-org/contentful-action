@@ -20,16 +20,16 @@
     "@actions/core": "^1.1.1",
     "@actions/github": "^3.0.0",
     "chalk": "^4.1.0",
-    "contentful-management": "^10.6.2",
-    "contentful-migration": "^4.9.1",
+    "contentful-management": "^11.23.0",
+    "contentful-migration": "^4.22.0",
     "to-semver": "^3.0.0",
     "tslib": "^2.1.0"
   },
   "devDependencies": {
-    "@zeit/ncc": "^0.20.5",
+    "@vercel/ncc": "^0.38.1",
     "eslint": "^6.3.0",
     "jest": "^24.9.0",
     "prettier": "^2.2.1",
-    "typescript": "^4.7.3"
+    "typescript": "^5.0.2"
   }
 }
