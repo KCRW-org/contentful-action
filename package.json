@@ -18,17 +18,17 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.1.1",
-    "@actions/github": "^3.0.0",
+    "@actions/github": "^6.0.0",
     "chalk": "^4.1.0",
-    "contentful-management": "^11.23.0",
-    "contentful-migration": "^4.22.0",
+    "contentful-management": "^11.52.1",
+    "contentful-migration": "^4.28.4",
     "to-semver": "^3.0.0",
     "tslib": "^2.1.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.1",
     "eslint": "^6.3.0",
-    "jest": "^24.9.0",
+    "jest": "^29.7.0",
     "prettier": "^2.2.1",
     "typescript": "^5.0.2"
   }
