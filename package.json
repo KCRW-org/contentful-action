@@ -20,8 +20,8 @@
     "@actions/core": "^1.1.1",
     "@actions/github": "^6.0.0",
     "chalk": "^4.1.0",
-    "contentful-management": "^11.52.1",
-    "contentful-migration": "^4.28.4",
+    "contentful-management": "^11.54.0",
+    "contentful-migration": "^4.28.6",
     "to-semver": "^3.0.0",
     "tslib": "^2.1.0"
   },
