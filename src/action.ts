@@ -61,7 +61,7 @@ export const runAction = async (space): Promise<void> => {
       break;
     }
 
-    await delay();
+    await delay(DELAY + (count * 5000));
     count++;
   }
 

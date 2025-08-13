@@ -50,4 +50,4 @@ export const MIGRATIONS_DIR = path.join(
 
 export const CONTENTFUL_ALIAS = "master";
 export const DELAY = 10000;
-export const MAX_NUMBER_OF_TRIES = 25;
+export const MAX_NUMBER_OF_TRIES = 50;
