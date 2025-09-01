@@ -7,8 +7,8 @@ import { Logger } from "./utils";
 (async () => {
   const client = createClient({
     accessToken: MANAGEMENT_API_KEY,
-    timeout: 120000, // 2 minutes timeout
-    retryLimit: 10, // Retry up to 10 times
+    timeout: 600000, // 10 minutes timeout
+    retryLimit: 20, // Retry up to 20 times
   });
   const space = await client.getSpace(SPACE_ID);
   try {
